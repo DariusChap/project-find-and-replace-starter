@@ -1,21 +1,16 @@
 const findInput = document.querySelector(".find-input")
 const replaceInput = document.querySelector(".replace-input")
 const replaceAllButton = document.querySelector(".replace-all-button")
-
-
-
 const rowElements = document.querySelectorAll(".row")
 
 
 
 
+
+
+
 function getCellElements(currentRowElement) {
-    
-    // const rowElements = document(".row")
-    
-    // while (rowElements.textContent.indexOf(find) += 0) { rowElements.textContent = rowElements.textContent.replace(find, replace); }
-    
-    return currentRowElement.querySelectorAll(".cell")
+     return currentRowElement.querySelectorAll(".cell")
 }
 
 
@@ -40,7 +35,7 @@ replaceAllButton.addEventListener("click", function() {
     }
     
 
-    console.log('I was here')
+    
 })
 
 
